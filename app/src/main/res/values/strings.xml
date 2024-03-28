@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Tasks</string>
+    <string name="welcome_to_task_manager">Welcome to task manager</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="you_do_not_have_an_account">You do not have an account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="save">Save</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="added_user">Added user</string>
+    <string name="error_adding_user">Error adding user</string>
+    <string name="fill_out_fields">Fill out all the fields</string>
 </resources>
