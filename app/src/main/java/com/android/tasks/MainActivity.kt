@@ -28,7 +28,10 @@ class MainActivity : AppCompatActivity() {
             val userName = nameUser.text.toString()
             val passwordName = passwordUser.text.toString()
             if (userDAO.validateUser(userName, passwordName)){
-                Toast.makeText(this, "correcto", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, PanelActivity::class.java).apply {
+                    putExtra("username", userName)
+                }
+                startActivity(intent)
             } else {
                 Toast.makeText(this, "error", Toast.LENGTH_SHORT).show()
             }
