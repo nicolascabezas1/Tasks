@@ -9,4 +9,7 @@
     <string name="create_an_account">Create an account</string>
     <string name="save">Save</string>
     <string name="confirm_password">Confirm password</string>
+    <string name="added_user">Added user</string>
+    <string name="error_adding_user">Error adding user</string>
+    <string name="fill_out_fields">Fill out all the fields</string>
 </resources>
